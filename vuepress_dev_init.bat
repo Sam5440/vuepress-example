@@ -1,0 +1,1 @@
+yarn add -D vuepress
