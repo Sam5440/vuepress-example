@@ -2,6 +2,6 @@
 @REM 解除openssl新版验证报错
 @REM cd ../
 @REM 浏览器打开127.0.0.1:8080
-start http://127.0.0.1:8080/
 set NODE_OPTIONS=--openssl-legacy-provider
 yarn docs:dev
+start http://127.0.0.1:8080/
