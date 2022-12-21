@@ -5,5 +5,3 @@
 start http://127.0.0.1:8080/
 set NODE_OPTIONS=--openssl-legacy-provider
 yarn docs:dev
-@REM cd ./akebigc_docs
-pause
